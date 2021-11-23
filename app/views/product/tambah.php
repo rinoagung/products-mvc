@@ -33,7 +33,7 @@
             </div>
             <div class="mb-3">
                 <label for="jumlah" class="form-label">Jumlah Produk</label>
-                <input type="number" class="form-control" id="jumlah" name="jumlah" placeholder="Jumlah" required>
+                <input type="number" class="form-control" id="jumlah" min="0" name="jumlah" placeholder="Jumlah" required>
             </div>
             <label for="harga" class="form-label">Harga Produk</label>
             <div class="input-group mb-3">
